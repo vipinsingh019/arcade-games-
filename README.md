@@ -31,6 +31,3 @@
 2. Keep `index.html`, `style.css`, and `games.js` in the same folder.
 3. Open `index.html` in a modern browser.
 
-```bash
-git clone https://github.com/YOUR-USERNAME/ArcadeVerse.git
-cd ArcadeVerse
