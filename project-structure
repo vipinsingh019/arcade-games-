@@ -1,0 +1,9 @@
+ArcadeVerse/
+├── index.html
+├── style.css
+├── games.js
+├── README.md
+├── LICENSE
+├── .gitignore
+├── CONTRIBUTING.md
+└── SECURITY.md
