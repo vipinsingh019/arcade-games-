@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ArcadeVerse</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<b>🕹 ARCADE<span>VERSE</span></b>
+<input id="search" placeholder="Search games">
+<button id="random">🎲 Random</button>
+</header>
+
+<section class="hero">
+<small>YOUR NEXT HIGH SCORE STARTS HERE</small>
+<h1>PLAY MORE.<br><em>SCROLL LESS.</em></h1>
+<p>Colourful mini-games. Pick a game and jump straight into the fun.</p>
+<button onclick="openGame('racer')">PLAY FEATURED GAME →</button>
+</section>
+
+<nav id="cats">
+<button class="active" data-cat="All">✦ All</button>
+<button data-cat="Arcade">🕹 Arcade</button>
+<button data-cat="Puzzle">🧩 Puzzle</button>
+<button data-cat="Racing">🏁 Racing</button>
+<button data-cat="Classic">⭐ Classic</button>
+</nav>
+
+<main>
+<h2 id="heading">Popular games</h2>
+<div id="grid"></div>
+</main>
+
+<section id="play" class="hide">
+<div class="bar">
+<button id="back">← GAMES</button>
+<h2 id="title"></h2>
+<button id="restart">↻ RESTART</button>
+</div>
+<canvas id="c"></canvas>
+<p id="help"></p>
+</section>
+
+<footer>
+ARCADEVERSE · Original browser mini-games · No account needed
+</footer>
+
+<script src="games.js"></script>
+</body>
+</html>
