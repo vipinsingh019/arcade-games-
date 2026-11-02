@@ -2,7 +2,7 @@
 
 **ArcadeVerse** is a responsive browser-game portal containing six original mini-games. Browse the game cards, search by name, filter by category, and launch a game directly in your browser.
 
-🌐 **Live demo:** https://arcadegame29.netlify.app
+🌐 **Live demo:** https://arcadeverse29.netlify.app/
 
 ## 🕹️ Games included
 
